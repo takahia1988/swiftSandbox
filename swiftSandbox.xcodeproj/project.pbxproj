@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F2147D61BE8D6E8001607AE /* Thirdparty in Resources */ = {isa = PBXBuildFile; fileRef = 0F2147D51BE8D6E8001607AE /* Thirdparty */; };
-		0F2147D91BE8D7D9001607AE /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2147D81BE8D7D9001607AE /* Fabric.framework */; };
-		0F2147DB1BE8D7EC001607AE /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2147DA1BE8D7EC001607AE /* Crashlytics.framework */; };
+		0F2147DF1BE8E12D001607AE /* SupportingFiles in Resources */ = {isa = PBXBuildFile; fileRef = 0F2147DE1BE8E12D001607AE /* SupportingFiles */; };
 		0F86B4661BE8C3A50097B903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86B4651BE8C3A50097B903 /* AppDelegate.swift */; };
 		0F86B4681BE8C3A50097B903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86B4671BE8C3A50097B903 /* ViewController.swift */; };
 		0F86B46B1BE8C3A50097B903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F86B4691BE8C3A50097B903 /* Main.storyboard */; };
@@ -39,8 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0F2147D51BE8D6E8001607AE /* Thirdparty */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Thirdparty; path = /Users/hiasa/Documents/src/git/swiftSandbox/Thirdparty; sourceTree = "<absolute>"; };
-		0F2147D81BE8D7D9001607AE /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Thirdparty/Fabric.framework; sourceTree = "<group>"; };
-		0F2147DA1BE8D7EC001607AE /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Thirdparty/Crashlytics.framework; sourceTree = "<group>"; };
+		0F2147DE1BE8E12D001607AE /* SupportingFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportingFiles; sourceTree = "<group>"; };
 		0F86B4621BE8C3A50097B903 /* swiftSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F86B4651BE8C3A50097B903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F86B4671BE8C3A50097B903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,8 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F2147DB1BE8D7EC001607AE /* Crashlytics.framework in Frameworks */,
-				0F2147D91BE8D7D9001607AE /* Fabric.framework in Frameworks */,
 				16B7B2DE59B0E2C4C3D54B23 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +86,7 @@
 		0F86B4591BE8C3A50097B903 = {
 			isa = PBXGroup;
 			children = (
+				0F2147DE1BE8E12D001607AE /* SupportingFiles */,
 				0F86B4641BE8C3A50097B903 /* swiftSandbox */,
 				0F86B4791BE8C3A50097B903 /* swiftSandboxTests */,
 				0F86B4841BE8C3A60097B903 /* swiftSandboxUITests */,
@@ -143,8 +140,6 @@
 		4E2DB9638B14A6929854FDDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F2147DA1BE8D7EC001607AE /* Crashlytics.framework */,
-				0F2147D81BE8D7D9001607AE /* Fabric.framework */,
 				5EDCBCF4D94EDA8DDD32510B /* libPods.a */,
 			);
 			name = Frameworks;
@@ -270,6 +265,7 @@
 				0F86B4701BE8C3A50097B903 /* LaunchScreen.storyboard in Resources */,
 				0F2147D61BE8D6E8001607AE /* Thirdparty in Resources */,
 				0F86B46D1BE8C3A50097B903 /* Assets.xcassets in Resources */,
+				0F2147DF1BE8E12D001607AE /* SupportingFiles in Resources */,
 				0F86B46B1BE8C3A50097B903 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
